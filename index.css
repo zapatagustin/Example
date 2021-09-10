@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
+<<<<<<< Updated upstream
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+=======
+  font-family: Fira Sans -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+>>>>>>> Stashed changes
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -9,6 +13,11 @@ body {
   padding: 0;
 }
 
+<<<<<<< Updated upstream
+=======
+/* navbar */
+
+>>>>>>> Stashed changes
 .navbar {
   display: flex;
   position: relative;
@@ -50,6 +59,11 @@ body {
   background-color: #555;
 }
 
+<<<<<<< Updated upstream
+=======
+
+/* botones navbar */
+>>>>>>> Stashed changes
 .toggle-button {
   position: absolute;
   top: 0.75rem;
@@ -68,11 +82,17 @@ body {
   border-radius: 10px;
 }
 
+<<<<<<< Updated upstream
+=======
+
+/* textos */
+>>>>>>> Stashed changes
 .titulo {
   text-align: center;
   padding: 3rem;
 }
 
+<<<<<<< Updated upstream
 hr.solid {
   border-top: 3px solid #bbb;
 }
@@ -91,6 +111,61 @@ hr.solid {
   display: flex;
   flex-flow: row wrap;
   padding: 40px;
+=======
+.text1-photo {
+  padding-left: 20%;
+}
+
+.text2-photo {
+  padding-left: 20%;
+}
+
+hr.solid {
+  padding: 3rem solid #bbb;
+}
+
+/*
+.texto1 {
+  text-align: center;
+}
+*/
+
+.texto2 {
+  text-align: center;
+  padding: 4rem;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.texto3 {
+  text-align: center;
+  padding: 4rem;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.texto4 {
+  text-align: center;
+  padding: 3rem;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.texto5 {
+  text-align: center;
+  padding: 3rem;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.texto6 {
+  text-align: center;
+  padding: 3rem;
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 10px;
+>>>>>>> Stashed changes
   color: #fff;
   background-color: black;
 }
@@ -111,7 +186,11 @@ h2 {
 
 .footer ul {
   list-style: none;
+<<<<<<< Updated upstream
   padding-left: 0;
+=======
+  padding-left: 10%;
+>>>>>>> Stashed changes
 }
 
 .footer li {
@@ -132,6 +211,7 @@ h2 {
   margin-right: 1.25em;
 }
 
+<<<<<<< Updated upstream
 .box a {
   color: #999;
 }
@@ -152,6 +232,33 @@ h2 {
   color: #999;
 }
 
+=======
+.social-box {
+  color: #999;
+}
+
+.info-box {
+  column-count: 1;
+  column-gap: 1.25em;
+}
+
+.text-footer {
+  color: #999;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.info-box {
+  padding-left: 20%;
+  color: #999;
+}
+
+.logo-box {
+  position: absolute;
+  right: 80px;
+}
+
+>>>>>>> Stashed changes
 @media (max-width: 800px) {
   .navbar {
     flex-direction: column;
