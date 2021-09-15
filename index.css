@@ -4,6 +4,10 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -81,10 +85,13 @@ body {
 
 .text1-photo {
   padding-left: 20%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .text2-photo {
   padding-left: 20%;
+  padding-bottom: 30px;
 }
 
 hr.solid {
@@ -99,13 +106,13 @@ hr.solid {
 
 .texto2 {
   text-align: center;
-  padding: 4rem;
+  padding: 1px;
   font-family: "Fira Sans", sans-serif;
 }
 
 .texto3 {
   text-align: center;
-  padding: 4rem;
+  padding: 1px;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -117,7 +124,7 @@ hr.solid {
 
 .texto5 {
   text-align: center;
-  padding: 3rem;
+  padding: 1px;
   font-family: "Fira Sans", sans-serif;
 }
 
