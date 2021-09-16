@@ -46,6 +46,10 @@ body {
   list-style: none;
 }
 
+.example1 button:hover {
+  background-color: #555;
+}
+
 .navbar-links li a{
   display: block;
   text-decoration: none;
