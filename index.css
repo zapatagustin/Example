@@ -1,4 +1,4 @@
-* {
+* { 
   box-sizing: border-box;
   font-family: futura-pt, sans-serif;
   font-style: normal;
@@ -128,14 +128,10 @@ hr.solid {
 */
 
 .texto2 {
-  color: #fff;
+  padding: 20px;
+  color: black;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
   font-family: "Fira Sans", sans-serif;
-  background-color: hsl(216, 21%, 16%);
 }
 
 .texto3 {
@@ -297,3 +293,65 @@ h2 {
     padding-top: 7rem;
   }
 }
+
+
+/* Texto */
+
+.center {
+  text-align: center;
+}
+
+.font h3 {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.vertical {
+  writing-mode: tb-rl;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+/**** Responsive ****/
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  order: 3;
+}
+
+/**** Padding *****/
+
+.padding-5 {
+  padding: 5px;
+}
+
+.padding-20 {
+  padding: 5em;
+}
+
+/**** Bordes *****/
+
+.b-2 {
+  border-width: 2px; 
+}
+
+.border {
+  border-style: solid;
+  border-color: black;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.border-rivas {
+  border-left-style: solid;
+  border-color: blue;
+  background: light-blue; 
+}
+
+.border-double {
+  border-style: double;
+}
+
